@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- 
+★对象-关系映射文件
+注意点：
+ 1.如果需要映射多个持久化类， 那么既可以在同一个映射文件中映射所有类，也可以为每个类创建单独的映射文件，映射文件和类同名，
+  扩展名为“hbm.xml”。后一种做法更值得推荐，因为在团队开发中，这有利于管理和维护映射文件。
+-->
+<hibernate-mapping>
+ <class name="com.yvwxw.saifu.ji.ex.hbmst.bean.Dog" table="DOGS">
+  <id name="id" column="ID" type="long">
+  	<meta attribute="scope-set">private</meta>
+  	<generator class="sequence">
+  		<param name="sequence_name">DOG_ID_SEQ</param>
+  	</generator>
+  </id>
+  <property name="name" column="NAME" type="string" not-null="true"/>
+  <property name="age" column="AGE" type="int"/>
+  <property name="gender" column="GENDER" type="character"/>
+ </class>
+</hibernate-mapping>
