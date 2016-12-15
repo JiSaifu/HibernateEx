@@ -1,4 +1,4 @@
-package com.yvwxw.saifu.ji.ex.hbmst.util;
+package com.yuwxw.saifu.ji.ex.hbmst.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

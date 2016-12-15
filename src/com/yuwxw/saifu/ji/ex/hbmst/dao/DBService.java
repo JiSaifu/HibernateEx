@@ -1,7 +1,7 @@
-package com.yvwxw.saifu.ji.ex.hbmst.dao;
+package com.yuwxw.saifu.ji.ex.hbmst.dao;
 
-import com.yvwxw.saifu.ji.ex.hbmst.bean.Entity;
-import com.yvwxw.saifu.ji.ex.hbmst.util.BaseHibernateService;
+import com.yuwxw.saifu.ji.ex.hbmst.bean.Entity;
+import com.yuwxw.saifu.ji.ex.hbmst.util.BaseHibernateService;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

@@ -1,4 +1,4 @@
-package com.yvwxw.saifu.ji.ex.hbmst.bean;
+package com.yuwxw.saifu.ji.ex.hbmst.bean;
 
 /**
  * 持久化类Dog
