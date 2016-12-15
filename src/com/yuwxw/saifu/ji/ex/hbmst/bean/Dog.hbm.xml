@@ -10,7 +10,7 @@
   扩展名为“hbm.xml”。后一种做法更值得推荐，因为在团队开发中，这有利于管理和维护映射文件。
 -->
 <hibernate-mapping>
- <class name="com.yvwxw.saifu.ji.ex.hbmst.bean.Dog" table="DOGS">
+ <class name="com.yuwxw.saifu.ji.ex.hbmst.bean.Dog" table="DOGS">
   <id name="id" column="ID" type="long">
   	<meta attribute="scope-set">private</meta>
   	<generator class="sequence">

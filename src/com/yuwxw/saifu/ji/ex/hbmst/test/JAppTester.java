@@ -1,8 +1,8 @@
-package com.yvwxw.saifu.ji.ex.hbmst.test;
+package com.yuwxw.saifu.ji.ex.hbmst.test;
 
-import com.yvwxw.saifu.ji.ex.hbmst.bean.Dog;
-import com.yvwxw.saifu.ji.ex.hbmst.dao.DogDBService;
-import com.yvwxw.saifu.ji.ex.hbmst.util.DBConnector;
+import com.yuwxw.saifu.ji.ex.hbmst.bean.Dog;
+import com.yuwxw.saifu.ji.ex.hbmst.dao.DogDBService;
+import com.yuwxw.saifu.ji.ex.hbmst.util.DBConnector;
 
 import java.util.List;
 

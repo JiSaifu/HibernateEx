@@ -1,4 +1,4 @@
-package com.yvwxw.saifu.ji.ex.hbmst.util;
+package com.yuwxw.saifu.ji.ex.hbmst.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

@@ -1,4 +1,4 @@
-package com.yvwxw.saifu.ji.ex.hbmst.bean;
+package com.yuwxw.saifu.ji.ex.hbmst.bean;
 
 /**
  * Created by Ji.Saifu on 2016/11/26.
